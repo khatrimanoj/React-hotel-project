@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import RoomsFilter from './RoomFilter';
 import RoomsList from './RoomList';
 import { withRoomConsumer } from '../context';
