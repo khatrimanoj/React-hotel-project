@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import defaultBcg from '../images/default.png';
-// import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import { Link } from 'react-router-dom';
 import { RoomContext } from '../context';
@@ -36,8 +35,6 @@ export default class SingleRoom extends Component {
         // console.log(defaultImg);
         return (
             <>
-                {/*to show banner image in listing write below code commented*/}
-                // <StyledHero img={images[0] || this.state.defaultBcg}>
                 <StyledHero img={mainImg || this.state.defaultBcg}>
                     <Banner title={`${name} room`}>
                         <Link to="/rooms" className="btn-primary">back to rooms</Link>
